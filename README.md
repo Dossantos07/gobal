@@ -8,10 +8,8 @@ Welcome to Global Auto Parts, your one-stop shop for car parts from around the w
 - [Features](#features)
 - [Screenshots](#screenshots)
 - [Installation](#installation)
-- [Usage](#usage)
 - [Deployment](#deployment)
 - [Technologies Used](#technologies-used)
-- [Contributing](#contributing)
 - [License](#license)
 - [Contact](#contact)
 
@@ -51,13 +49,13 @@ cd global-auto-parts
 Usage
 Open the index.html file in your browser to view the website locally.
 
-Deployment
+## Deployment
 This project is deployed using GitHub Pages. To deploy your own version, follow these steps:
 
 Commit all changes to your local repository.
 Push the changes to GitHub.
 Go to the repository settings on GitHub and enable GitHub Pages, selecting the appropriate branch and folder.
-Technologies Used
+## Technologies Used
 HTML5
 CSS3
 Git & GitHub for version control
@@ -78,10 +76,10 @@ bash
 Copy code
 git push origin feature/your-feature-name
 Open a pull request.
-License
+## License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-Contact
+## Contact
 If you have any questions or feedback, feel free to reach out:
 
 Email: contact@globalautoparts.com
