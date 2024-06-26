@@ -1,0 +1,163 @@
+/* Base Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #333;
+    color: #fff; /* Set text color to white */
+}
+
+header {
+    background-color: black;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+header .logo {
+    max-height: 110px; /* Increased height */
+    max-width: 400px; /* Increased max width for broader logo */
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+header nav ul li {
+    margin-right: 15px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    display: block;
+}
+
+header nav ul li a:focus, header nav ul li a:hover {
+    text-decoration: underline;
+    background-color: #555;
+}
+
+main {
+    padding: 20px;
+    text-align: center; /* Center-align the main content */
+}
+
+h1, h2, p, form label, button {
+    color: white; /* Set text color to white */
+}
+
+form input, form textarea {
+    margin-top: 5px;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border: none; /* Remove border from all images */
+}
+
+.centered-image {
+    display: block;
+    margin: 20px auto; /* Center the image horizontally */
+    max-width: 80%; /* Limit the max width of the image */
+}
+
+/* Responsive layout for small screens */
+@media (max-width: 600px) {
+    .header-container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    header nav ul {
+        flex-direction: column;
+        width: 100%;
+    }
+    header nav ul li {
+        margin: 10px 0;
+    }
+}
+
+/* Styling for Products Section */
+#products {
+    background-image: url('https://images.deepai.org/art-image/d5f55092f27f49e7a3ab39a5ab82c15f/car-parts-f9195b.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 50px 20px; /* Add padding to ensure content is readable */
+    text-align: center;
+}
+
+#products .products-background {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 800px; /* Limit width of content for readability */
+    margin: 0 auto; /* Center-align content */
+}
+
+
+#products ul {
+    list-style: none;
+    padding: 0;
+}
+
+
+
+#products .more-info {
+    margin-top: 20px;
+    color: #fff;
+}
+
+#products .more-info a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+#products .more-info a:hover {
+    text-decoration: underline;
+}
+
+/* Styling for Contact Section */
+#contact {
+    background-image: url('https://www.vwfs.ie/content/dam/bluelabel/valid/www-vwfs-ie/images/contact-us/contact_us_personal_customers.jpg.xl.webp');
+    background-size: cover;
+    background-position: center;
+    padding: 50px 20px; /* Add padding to ensure content is readable */
+    text-align: center;
+}
+
+#contact .contact-background {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 800px; /* Limit width of content for readability */
+    margin: 0 auto; /* Center-align content */
+}
+
